@@ -1,0 +1,30 @@
+AIDL支持的数据类型：
+
+    Java 编程语言中的所有基本数据类型（如 int、long、char、boolean 等等）
+
+    String和CharSequence
+
+    Parcelable：实现了Parcelable接口的对象
+
+    List：其中的元素需要被AIDL支持，另一端实际接收的具体类始终是 ArrayList，但生成的方法使用的是 List 接口
+
+    Map：其中的元素需要被AIDL支持，包括 key 和 value，另一端实际接收的具体类始终是 HashMap，但生成的方法使用的是 Map 接口
+
+    其他注意事项：
+
+        在AIDL中传递的对象，必须实现Parcelable序列化接口；
+
+        在AIDL中传递的对象，需要在类文件相同路径下，创建同名、但是后缀为.aidl的文件，并在文件中使用parcelable关键字声明这个类；
+
+        跟普通接口的区别：只能声明方法，不能声明变量；
+
+        所有非基础数据类型参数都需要标出数据走向的方向标记。可以是 in、out 或 inout，基础数据类型默认只能是 in，不能是其他方向。
+
+
+如何创建一个AIDL接口
+
+      Android Studio创建AIDL：项目右键 -> New -> AIDL -> AIDL File
+      aidl 接口只能定义 方法 不能定义变量
+
+in out inout 命名含义
+
