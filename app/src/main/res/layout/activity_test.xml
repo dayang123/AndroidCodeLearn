@@ -11,4 +11,9 @@
         android:text="测试 EditText"
         style="@style/JumpButtonStyle"/>
 
+    <Button
+        android:id="@+id/testDrawableMemory"
+        android:text="测试drawable 所占的内存大小"
+        style="@style/JumpButtonStyle"/>
+
 </LinearLayout>

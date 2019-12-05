@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.administrator.myapplication.R
+import kotlinx.android.synthetic.main.activity_test.testDrawableMemory
 import kotlinx.android.synthetic.main.activity_test.testEditText
 
 class TestActivity : AppCompatActivity() {
@@ -18,10 +19,10 @@ class TestActivity : AppCompatActivity() {
 
     private fun initView() {
         testEditText.setOnClickListener{TestEditTextActivity.startActivity(this)}
+        testDrawableMemory.setOnClickListener{TestDrawableMemoryActivity.startActivity(this)}
     }
 
     companion object {
-
         @JvmStatic
         fun startActivity(context: Context) {
             context.startActivity(Intent(context, TestActivity::class.java))

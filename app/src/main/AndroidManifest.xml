@@ -29,6 +29,9 @@
         <activity
             android:name=".multiprogress.aidl.AidlClientActivity"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".test.TestDrawableMemoryActivity"
+            android:screenOrientation="portrait"/>
         <service
             android:name=".multiprogress.aidl.AIDLService"
             android:enabled="true"

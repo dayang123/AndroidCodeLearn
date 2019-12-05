@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <ViewStub
+        android:id="@+id/iv_1"
+        android:layout="@layout/test_drawable_2x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginBottom="30dp"/>
+
+    <ViewStub
+        android:id="@+id/iv_2"
+        android:layout="@layout/test_drawable_3x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginBottom="30dp"/>
+
+    <ViewStub
+        android:id="@+id/iv_3"
+        android:layout="@layout/test_drawable_2x_xxh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2x的图片 在h中占的内存"
+        android:gravity="center"
+        android:tag="1"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3x的图片在h中占的内存大小"
+        android:gravity="center"
+        android:tag="2"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2x的图片在xxh中占的内存的大小"
+        android:gravity="center"
+        android:tag="3"
+        android:layout_marginBottom="30dp"/>
+
+</LinearLayout>
