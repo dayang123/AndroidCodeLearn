@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.administrator.myapplication">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -32,6 +34,11 @@
         <activity
             android:name=".test.TestDrawableMemoryActivity"
             android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".webview.DemoWebActivity"
+            android:screenOrientation="portrait"/>
+
         <service
             android:name=".multiprogress.aidl.AIDLService"
             android:enabled="true"

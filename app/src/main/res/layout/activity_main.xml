@@ -17,4 +17,9 @@
         style="@style/JumpButtonStyle"
         android:text="跳转到测试数据库界面"/>
 
+    <Button
+        android:id="@+id/jump_to_test_webview"
+        style="@style/JumpButtonStyle"
+        android:text="跳转到测试webview 界面"/>
+
 </LinearLayout>

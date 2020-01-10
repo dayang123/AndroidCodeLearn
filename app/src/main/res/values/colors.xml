@@ -5,4 +5,7 @@
     <color name="colorAccent">#D81B60</color>
 
     <color name="black">#000000</color>
+
+    <color name="grey_8a">#8a8a8a</color>
+    <color name="grey_db">#dbdbdb</color>
 </resources>
