@@ -39,6 +39,19 @@
             android:name=".webview.DemoWebActivity"
             android:screenOrientation="portrait"/>
 
+        <activity
+            android:name=".test.TestLifeCycleActivityA"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".test.TestLifeCycleActivityB"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".test.TestLifeCycleActivityC"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+
         <service
             android:name=".multiprogress.aidl.AIDLService"
             android:enabled="true"

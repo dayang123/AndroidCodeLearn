@@ -16,4 +16,9 @@
         android:text="测试drawable 所占的内存大小"
         style="@style/JumpButtonStyle"/>
 
+    <Button
+        android:id="@+id/testLifeCycle"
+        android:text="测试Activity和Fragment的生命周期"
+        style="@style/JumpButtonStyle"/>
+
 </LinearLayout>
