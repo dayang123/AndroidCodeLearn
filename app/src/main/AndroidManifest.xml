@@ -51,6 +51,9 @@
             android:name=".test.TestLifeCycleActivityC"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".test.TestHandlerActivity"
+            android:screenOrientation="portrait"/>
 
         <service
             android:name=".multiprogress.aidl.AIDLService"

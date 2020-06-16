@@ -21,4 +21,10 @@
         android:text="测试Activity和Fragment的生命周期"
         style="@style/JumpButtonStyle"/>
 
+    <Button
+        android:id="@+id/testHandler"
+        android:text="测试handler相关"
+        style="@style/JumpButtonStyle"/>
+
+
 </LinearLayout>

@@ -20,6 +20,7 @@ class TestActivity : AppCompatActivity() {
         testEditText.setOnClickListener{TestEditTextActivity.startActivity(this)}
         testDrawableMemory.setOnClickListener{TestDrawableMemoryActivity.startActivity(this)}
         testLifeCycle.setOnClickListener{startActivity(Intent(this, TestLifeCycleActivityA::class.java))}
+        testHandler.setOnClickListener{startActivity(Intent(this, TestHandlerActivity::class.java))}
     }
 
     companion object {
